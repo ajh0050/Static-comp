@@ -1,0 +1,55 @@
+
+
+header {
+    display:flex;
+    flex-direction:row;
+    background-color: darkgrey;
+    width:100%;
+}
+
+.header-selections {
+    display:flex;
+    flex-direction: row;
+    color: lightgrey;
+    align-items: flex-end;
+    width:75%;
+}
+
+.header-selection {
+    margin: 1%;
+}
+
+.home-button-section {
+    display:flex;
+    flex-direction: column;
+    width:25%;
+    align-items: flex-end;
+}
+
+main {
+    background-color: lightgrey;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.card {
+    display:flex;
+    flex-direction: column;
+    width: 20%;
+    height: 35%;
+    border: solid 2px; 
+    margin-bottom: 10px;
+}
+
+.card-header-section {
+    display: flex;
+    flex-direction: row;
+    background-image: url("https://media.flytographer.com/uploads/2022/04/headshot-examples-vancouver-flytographer-1.jpeg")
+}
+
